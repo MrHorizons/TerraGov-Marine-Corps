@@ -162,15 +162,20 @@
 		/obj/item/attachable/burstfire_assembly,
 		/obj/item/attachable/magnetic_harness,
 		/obj/item/attachable/gyro,
+		/obj/item/weapon/gun/pistol/plasma_pistol,
+		/obj/item/weapon/gun/shotgun/combat/masterkey,
+		/obj/item/weapon/gun/flamer/mini_flamer,
+		/obj/item/weapon/gun/grenade_launcher/underslung,
+		/obj/item/attachable/bayonet,
 	)
 
 	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 17,"rail_x" = 14, "rail_y" = 20, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 16)
 
 	accuracy_mult = 1
 	accuracy_mult_unwielded = 0.9
-	scatter = 7
+	scatter = 3
 	fire_delay = 0.2 SECONDS
-	scatter_unwielded = 15
+	scatter_unwielded = 10
 	aim_slowdown = 0.15
 	burst_amount = 3
 
@@ -193,6 +198,11 @@
 		/obj/item/attachable/burstfire_assembly,
 		/obj/item/attachable/magnetic_harness,
 		/obj/item/attachable/gyro,
+		/obj/item/weapon/gun/pistol/plasma_pistol,
+		/obj/item/weapon/gun/shotgun/combat/masterkey,
+		/obj/item/weapon/gun/flamer/mini_flamer,
+		/obj/item/weapon/gun/grenade_launcher/underslung,
+		/obj/item/attachable/bayonet,
 	)
 
 	flags_item_map_variant = NONE
@@ -202,7 +212,7 @@
 	accuracy_mult_unwielded = 0.95
 	damage_mult = 1.2
 	aim_slowdown = 0.4
-	scatter = 4
+	scatter = 2
 
 /obj/item/weapon/gun/smg/m25/elite/pmc
 	starting_attachment_types = list(/obj/item/attachable/magnetic_harness)
