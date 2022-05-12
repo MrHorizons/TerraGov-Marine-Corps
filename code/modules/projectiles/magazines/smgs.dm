@@ -6,7 +6,7 @@
 	icon_state_mini = "mag_smg"
 
 //-------------------------------------------------------
-//M25 SMG ammo
+// SMG-25 ammo
 
 /obj/item/ammo_magazine/smg/m25
 	name = "\improper SMG-25 magazine (10x20mm)"
